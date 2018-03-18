@@ -1,5 +1,7 @@
 # Static Site with SSL
 
+With a couple of Docker containers you can "easily" spin up a static site server with self managed SSL certs.  I put easily in quotes because the docker commands to set this up are long and I can never remember them. So I put those commands in an "easy" (I hope) to use script. 
+
 ## Get started
 ```
 # Set up your site. 
@@ -14,3 +16,8 @@ vim config.sh
 # Start it up.
 ./start.sh
 ```
+
+## Credits
+- https://hub.docker.com/r/jrcs/letsencrypt-nginx-proxy-companion/
+- https://hub.docker.com/r/jwilder/nginx-proxy
+- https://hub.docker.com/_/nginx
