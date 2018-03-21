@@ -17,6 +17,10 @@ vim config.sh
 ./start.sh
 ```
 
+## Pointers
+- I've seen getting the SSL certs take a couple of minutes one time and then another where it didn't seem to work but after running start.sh again it worked right away :P.
+
+
 ## Credits
 - https://hub.docker.com/r/jrcs/letsencrypt-nginx-proxy-companion/
 - https://hub.docker.com/r/jwilder/nginx-proxy
